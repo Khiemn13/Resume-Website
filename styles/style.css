@@ -14,7 +14,7 @@ body {
 
 .navbar {
     display: flex;
-    position: sticky; /* Make the navbar sticky */
+    position: fixed; /* Make the navbar sticky */
     top: 0;             /* Stick to the top*/
     justify-content: space-between;
     align-items: center;
