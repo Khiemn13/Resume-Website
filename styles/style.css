@@ -10,11 +10,21 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
 }
 
 html, body {
-  height: 100%;
-  overflow-y: auto;
+    height: 100%;
+    overflow-y: auto;
+}
+
+a {
+    text-decoration: none;   /*remove underline from hyoerlinks*/
+    color: grey;
+}
+a:hover {
+    color: rgb(98, 98, 98);
 }
 
 .navbar {
@@ -44,18 +54,6 @@ html, body {
     font-weight: bold;
 }
 
-
-/*Go up button*/
-html {scroll-behavior: smooth;}
-
-#uparrow{
-    position: fixed; bottom:20px; right:20px;
-    width: 50px; height: 50px; border-radius: 50%;;
-    display: none;
-    justify-content: center; align-items: center;
-    background-color: rgb(112, 157, 172);
-}
-
 footer{
     color: white;
     text-align: center;
@@ -77,12 +75,40 @@ footer{
 }
 
 .project-card:hover {
-  background-color: rgb(16, 69, 56);
-  transform: translateY(-4px);
+    background-color: rgb(16, 69, 56);
+    transform: translateY(-4px);
 }
 
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.navbar.dark-mode {
+    background-color: #0a4d3c; 
+}
+
+.project-card.dark-mode {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
 
 a {
-  text-decoration: none;   /*remove underline from hyoerlinks*/
-  color: grey;
+    color: #b8f1cc;
+}
+
+a:hover {
+    color: #21bf73;
+}
+
+/*Go up button*/
+html {scroll-behavior: smooth;}
+
+#uparrow{
+    position: fixed; bottom:20px; right:20px;
+    width: 50px; height: 50px; border-radius: 50%;;
+    display: none;
+    justify-content: center; align-items: center;
+    background-color: rgb(112, 157, 172);
 }
