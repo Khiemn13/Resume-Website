@@ -77,17 +77,22 @@ footer{
 .project-card:hover {
     background-color: rgb(16, 69, 56);
     transform: translateY(-4px);
+    cursor: pointer;
+
 }
 
 /* Dark mode styles */
 
-.darkButton{
-    background-color: #0a4d3c;
-    border-radius: 10px;
-    padding: 10px 20px;             
-    transition: background-color 0.3s ease; 
-    display: inline-block; 
+.darkButton {
+    background-color: #1e1e1e;
+    border: 2px solid white;
+    border-radius: 6px;
+    padding: 8px 16px;
+    color: white;
     font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 body.dark-mode {
     background-color: #121212;
