@@ -21,10 +21,10 @@ html, body {
 
 a {
     text-decoration: none;   /*remove underline from hyoerlinks*/
-    color: grey;
+    color: #b8f1cc;
 }
 a:hover {
-    color: rgb(98, 98, 98);
+    color: #21bf73;
 }
 
 .navbar {
@@ -47,8 +47,12 @@ a:hover {
     margin: 0;
     padding: 0;
 }
+.nav-links li {
+    display: flex;
+    align-items: center;
+}
 
-.nav-links li a {
+.nav-links a {
     text-decoration: none;
     color: white;
     font-weight: bold;
@@ -88,12 +92,16 @@ footer{
     border: 2px solid white;
     border-radius: 6px;
     padding: 8px 16px;
-    color: white;
-    font-weight: bold;
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-align: webkit-match-parent;
+
 }
+
 body.dark-mode {
     background-color: #121212;
     color: #e0e0e0;
@@ -108,14 +116,6 @@ body.dark-mode {
     color: #e0e0e0;
 }
 
-a {
-    color: #b8f1cc;
-}
-
-a:hover {
-    color: #21bf73;
-}
-
 /*Go up button*/
 html {scroll-behavior: smooth;}
 
@@ -126,3 +126,5 @@ html {scroll-behavior: smooth;}
     justify-content: center; align-items: center;
     background-color: rgb(112, 157, 172);
 }
+
+
