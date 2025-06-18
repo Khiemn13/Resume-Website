@@ -80,6 +80,14 @@ footer{
 }
 
 /* Dark mode styles */
+
+.darkButton{
+    background-color: #0a4d3c;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
 body.dark-mode {
     background-color: #121212;
     color: #e0e0e0;
