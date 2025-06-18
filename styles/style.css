@@ -1,3 +1,8 @@
+button {
+    all: unset;           
+    cursor: pointer;
+}
+
 #container
 {
     font-family: Arial, Helvetica, sans-serif;
