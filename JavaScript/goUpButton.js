@@ -3,7 +3,7 @@ const go_up = () =>
     
     window.addEventListener('scroll', checkHeight)
     function checkHeight(){
-        if (window.scrollY > 200) {
+        if (window.scrollY > 150) {
             go_up().style.display = "flex";
         }
         else{
