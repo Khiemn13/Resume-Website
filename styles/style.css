@@ -38,6 +38,18 @@ body {
     font-weight: bold;
 }
 
+
+/*Go up button*/
+html {scroll-behavior: smooth;}
+
+#uparrow{
+    position: fixed; bottom:20px; right:20px;
+    width: 50px; height: 50px; border-radius: 50%;;
+    display: none;
+    justify-content: center; align-items: center;
+    background-color: rgb(112, 157, 172);
+}
+
 footer{
     background-color: #0a4d3c;
     color: white;
